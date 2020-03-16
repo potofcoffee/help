@@ -7,6 +7,11 @@ use Illuminate\Http\Request;
 
 class CityController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -14,7 +19,8 @@ class CityController extends Controller
      */
     public function index()
     {
-        //
+        $cities = City::all();
+        return view('cities.index', compact('cities'));
     }
 
     /**
@@ -24,7 +30,7 @@ class CityController extends Controller
      */
     public function create()
     {
-        //
+        return view('cities.create');
     }
 
     /**
@@ -35,7 +41,8 @@ class CityController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $city = City::create($this->validateRequest($request));
+        return redirect()->route('cities.index')->with('success', 'Der Ort "'.$city->name.'" wurde angelegt.');
     }
 
     /**
@@ -46,7 +53,6 @@ class CityController extends Controller
      */
     public function show(City $city)
     {
-        //
     }
 
     /**
@@ -57,7 +63,7 @@ class CityController extends Controller
      */
     public function edit(City $city)
     {
-        //
+        return view('cities.edit', compact('city'));
     }
 
     /**
@@ -69,7 +75,9 @@ class CityController extends Controller
      */
     public function update(Request $request, City $city)
     {
-        //
+        $city->update($this->validateRequest($request));
+        return redirect()->route('cities.index')->with('success', 'Der Ort "'.$city->name.'" wurde mit geänderten Daten gespeichert.');
+
     }
 
     /**
@@ -81,5 +89,12 @@ class CityController extends Controller
     public function destroy(City $city)
     {
         //
+    }
+
+    protected function validateRequest(Request $request) {
+        return $request->validate([
+            'name' => 'string|required',
+            'notice' => 'nullable|string',
+        ]);
     }
 }
