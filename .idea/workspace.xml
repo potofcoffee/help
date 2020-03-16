@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="602f8f21-9f3c-4b5b-bbc4-cd529ccbcc02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cities/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cities/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cities/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/City.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/City.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CityController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_16_091745_create_cities_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_16_091745_create_cities_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,12 +154,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584348917159</updated>
-      <workItem from="1584348919106" duration="3348000" />
+      <workItem from="1584348919106" duration="3394000" />
     </task>
+    <task id="LOCAL-00001" summary="Created City model">
+      <created>1584352785615</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584352785615</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created City model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created City model" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="239" key="#Composer" timestamp="1584348943075">
@@ -179,6 +182,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="552" y="239" key="#Deployment/0.0.1920.1160@0.0.1920.1160" timestamp="1584349250985" />
+    <state x="585" y="175" key="CommitChangelistDialog2" timestamp="1584352783097">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="585" y="175" key="CommitChangelistDialog2/0.0.1920.1160@0.0.1920.1160" timestamp="1584352783097" />
     <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1584349142011">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
