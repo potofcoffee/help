@@ -13,6 +13,10 @@
                 <input class="form-control" name="name" value="{{ $city->name }}" />
             </div>
             <div class="form-group">
+                <label for="zip">Postleitzahl</label>
+                <input class="form-control" name="zip" value="{{ $city->zip }}" />
+            </div>
+            <div class="form-group">
                 <label for="notice">Informationen für diesen Ort</label>
                 <textarea class="form-control" name="notice" rows="15">{{ $city->notice }}</textarea>
             </div>

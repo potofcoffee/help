@@ -12,6 +12,10 @@
                 <input class="form-control" name="name" value="" />
             </div>
             <div class="form-group">
+                <label for="name">Postleitzahl</label>
+                <input class="form-control" name="zip" value="" />
+            </div>
+            <div class="form-group">
                 <label for="notice">Informationen für diesen Ort</label>
                 <textarea class="form-control" name="notice" rows="15"></textarea>
             </div>

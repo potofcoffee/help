@@ -2,18 +2,99 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="602f8f21-9f3c-4b5b-bbc4-cd529ccbcc02" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/HelpRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HelpRequestController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HelperController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Services/Geocoder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/HelpRequestFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/HelperFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_03_16_150116_add_city_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_03_16_152620_create_helpers_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_03_17_074448_create_help_requests_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_03_17_102032_add_zip_to_cities.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_03_17_131458_add_coordinates.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/welcome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/butterfly-1127666_1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/woman-3188744_1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/de/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/de/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/de/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/de/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/cityWelcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/cityWelcome.old.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/helpRequests/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/helpRequests/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/helpRequests/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/helpers/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/helpers/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/helpers/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/form/checkbox.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/form/datetimepicker.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/form/dayselect.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/form/file.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/form/hidden.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/form/input.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/form/locationselect.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/form/peopleselect.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/form/radiogroup.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/form/select.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/form/selectize.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/form/tab.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/form/tabheader.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/form/tabheaders.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/form/tabs.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/form/textarea.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/thanks.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users/changePassword.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/City.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/City.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cities/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cities/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cities/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cities/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -106,17 +187,21 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1ZChKJHuJ9RpHXDLqGJBlrqOKuB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/cities" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/users" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -126,11 +211,28 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Configurable.PHP.Blade" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Dev\PHP\phpstorm\help\resources\views\cities" />
+      <recent name="D:\Dev\PHP\phpstorm\help\resources\views\users" />
+      <recent name="D:\Dev\PHP\phpstorm\help\resources\views" />
+      <recent name="D:\Dev\PHP\phpstorm\help\public\img" />
+      <recent name="D:\Dev\PHP\phpstorm\help\resources\lang\de" />
+      <recent name="D:\Dev\PHP\phpstorm\help\resources\lang" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dev\PHP\phpstorm\help\resources\views" />
+      <recent name="D:\Dev\PHP\phpstorm\help\public\img" />
+      <recent name="D:\Dev\PHP\phpstorm\help\resources\views\cities" />
+      <recent name="D:\Dev\PHP\phpstorm\help\resources\views\helpers" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -154,7 +256,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584348917159</updated>
-      <workItem from="1584348919106" duration="3394000" />
+      <workItem from="1584348919106" duration="31908000" />
+      <workItem from="1584519482984" duration="14383000" />
     </task>
     <task id="LOCAL-00001" summary="Created City model">
       <created>1584352785615</created>
@@ -163,15 +266,24 @@
       <option name="project" value="LOCAL" />
       <updated>1584352785615</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Exclude .idea from .gitignore">
+      <created>1584352812608</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584352812608</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Created City model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created City model" />
+    <MESSAGE value="Exclude .idea from .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exclude .idea from .gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="239" key="#Composer" timestamp="1584348943075">
@@ -182,10 +294,14 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="552" y="239" key="#Deployment/0.0.1920.1160@0.0.1920.1160" timestamp="1584349250985" />
-    <state x="585" y="175" key="CommitChangelistDialog2" timestamp="1584352783097">
+    <state x="690" y="336" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1584451309982">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="585" y="175" key="CommitChangelistDialog2/0.0.1920.1160@0.0.1920.1160" timestamp="1584352783097" />
+    <state x="690" y="336" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1584451309982" />
+    <state x="585" y="175" key="CommitChangelistDialog2" timestamp="1584352811478">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="585" y="175" key="CommitChangelistDialog2/0.0.1920.1160@0.0.1920.1160" timestamp="1584352811478" />
     <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1584349142011">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -202,13 +318,37 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1877" height="321" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1584349142011" />
-    <state width="498" height="398" key="SwitcherDM" timestamp="1584350124781">
+    <state x="760" y="395" key="NewPhpClassDialog" timestamp="1584450292058">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="498" height="398" key="SwitcherDM/0.0.1920.1160@0.0.1920.1160" timestamp="1584350124781" />
-    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1584350129084">
+    <state x="760" y="395" key="NewPhpClassDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1584450292058" />
+    <state x="461" y="223" key="SettingsEditor" timestamp="1584445025091">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1584350129084" />
+    <state x="461" y="223" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1584445025091" />
+    <state width="498" height="398" key="SwitcherDM" timestamp="1584536934511">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="498" height="398" key="SwitcherDM/0.0.1920.1160@0.0.1920.1160" timestamp="1584536934511" />
+    <state x="656" y="405" key="com.intellij.ide.util.TipDialog" timestamp="1584519482489">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="656" y="405" key="com.intellij.ide.util.TipDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1584519482489" />
+    <state x="656" y="312" width="607" height="536" key="find.popup" timestamp="1584441502720">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="656" y="312" width="607" height="536" key="find.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1584441502720" />
+    <state x="601" y="306" width="700" height="530" key="recent.locations.popup" timestamp="1584451301813">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="601" y="306" width="700" height="530" key="recent.locations.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1584451301813" />
+    <state x="616" y="270" key="run.anything.popup" timestamp="1584441109969">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="616" y="270" key="run.anything.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1584441109969" />
+    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1584529781597">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1584529781597" />
   </component>
 </project>

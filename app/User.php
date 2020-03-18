@@ -36,4 +36,13 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function cities() {
+        return $this->belongsToMany(City::class)->withTimestamps();
+    }
+
+    public function cityIds() {
+        if ($this->name == 'Admin') return City::all()->pluck('id');
+        return $this->cities->pluck('id');
+    }
 }

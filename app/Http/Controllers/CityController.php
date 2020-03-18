@@ -94,6 +94,7 @@ class CityController extends Controller
     protected function validateRequest(Request $request) {
         return $request->validate([
             'name' => 'string|required',
+            'zip' => 'nullable|string',
             'notice' => 'nullable|string',
         ]);
     }

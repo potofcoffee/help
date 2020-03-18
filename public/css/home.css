@@ -1,0 +1,16 @@
+.full-height {
+    height: 100vh;
+}
+
+.welcome .city-links a {
+    color: black;
+}
+
+.help-request-form {
+    background-color: #7C3A25;
+    color: white;
+}
+.helper-form {
+    background-color: #2E3955;
+    color: white;
+}
